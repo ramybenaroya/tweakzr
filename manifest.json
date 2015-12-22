@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "Tweaks for kzradio.net",
-  "homepage_url": "http://extensionizr.com",
+  "homepage_url": "https://github.com/ramybenaroya/tweakzr",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
