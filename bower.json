@@ -1,0 +1,23 @@
+{
+  "name": "tweakzr",
+  "description": "Tweaks for kzradio.net",
+  "authors": [
+    "@ramybenaroya"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "kz",
+    "kzradio"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
