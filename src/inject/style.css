@@ -1,0 +1,23 @@
+:local(.downloadLinkClassName) {
+	height: 26px;
+    width: 26px;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#fff" height="22" viewBox="0 0 22 22" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background-position: 1px 2px;
+    cursor: pointer;
+}
+:local(.downloadLinkClassName):hover {
+	background-image: url('data:image/svg+xml;utf8,<svg fill="#000" height="22" viewBox="0 0 22 22" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+	border-color: #000;
+}
+
+:local(.playlistItemLinkClassName) {
+	cursor: pointer;
+	text-decoration: underline;	
+}
