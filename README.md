@@ -6,7 +6,7 @@ Chrome extensions for tweaking [kzradio.net](http://kzradio.net)
 
 - **Clickable playlist item.**  
 As you probably know, when listening to an archived show you can click on the list button (at the bottom right) and overview the show playlist.   
-This extensions makes the songs names clickable(!) 
+This extensions turns the songs names to clickable(!) 
 - **Download button for each show**
 
 ## Usage
