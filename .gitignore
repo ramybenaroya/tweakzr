@@ -5,5 +5,4 @@ npm-debug.log
 extension/src/inject/inject.js
 extension/src/bg/background.js
 extension/key.pem
-build/tweakzr.crx
 build/tweakzr.dev.crx
