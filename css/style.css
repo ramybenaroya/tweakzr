@@ -34,13 +34,15 @@
 }
 
 .brand-logo > img {
-	height: 64px;
+	height: 52px;
+  margin-top: 6px;
 }
 
 @media only screen and (max-width: 600px) {
   	.brand-logo > img {
-		height: 56px;
-	}
+		  height: 40px;
+      margin-top :10px;
+    }
 }
 /* sticky footer */
 body {
