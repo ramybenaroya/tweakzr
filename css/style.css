@@ -12,3 +12,33 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.kz-red {
+  background-color: #D03838 !important;
+}
+
+.kz-red-text {
+  color: #D03838 !important;
+}
+
+.kz-black {
+  background-color: #191919 !important;
+}
+
+.kz-black-text {
+  color: #191919 !important;
+}
+
+.github {
+	height: 66px;
+}
+
+.brand-logo > img {
+	height: 64px;
+}
+
+@media only screen and (max-width: 600px) {
+  	.brand-logo > img {
+		height: 56px;
+	}
+}
