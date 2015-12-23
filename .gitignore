@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+bower_compoentns/
+npm-debug.log
+extension/src/inject/inject.js
+extension/src/bg/background.js
+extension/key.pem
+bin/tweakzr.dev.crx
