@@ -1,6 +1,7 @@
 # tweaKZr
+Chrome extensions for tweaking [kzradio.net](http://kzradio.net)   
+![](http://kzradio.net/fb.jpg)  
 
-Chrome extensions for tweaking [kzradio.net](http://kzradio.net)
 
 ## The Tweaks
 
