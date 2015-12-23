@@ -8,6 +8,7 @@
     "webpack-bg": "NODE_ENV=production webpack --config webpack.config.bg.js",
     "webpack-dev-inject": "webpack --config webpack.config.inject.js",
     "webpack-bg-inject": "webpack --config webpack.config.bg.js",
+    "webpack": "npm run webpack-inject && npm run webpack-bg",
     "crx": "cd extension && crx pack -o ../bin/tweakzr.crx",
     "crx-dev": "cd extension && crx pack -o ../bin/tweakzr.dev.crx",
     "build": "npm run webpack-inject && npm run webpack-bg && npm run crx",
