@@ -2,19 +2,6 @@ var webpack = require('webpack');
 var isDevelopment = process.env.NODE_ENV !== 'production';
 var isProduction = !isDevelopment;
 
-var prefix = [
-	'(function(){',
-	'	var scr = document.createElement("script");',
-	'	scr.textContent = "(" + function () {'
-].join('\n');
-
-var suffix = [
-	'	} + ")();";',
-	'	(document.head || document.documentElement).appendChild(scr);',
-	'	scr.parentNode.removeChild(scr);',
-	'})();'
-].join('\n');
-
 var plugins = [
         new webpack.DefinePlugin({
             NODE_ENV: process.env.NODE_ENV === "production" ? '"production"' : '"development"'
